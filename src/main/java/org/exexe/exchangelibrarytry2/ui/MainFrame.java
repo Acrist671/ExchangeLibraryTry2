@@ -12,10 +12,10 @@ public class MainFrame extends JFrame {
     private Map<String, String> nameofValues;
 
     public MainFrame() {
-        try {
+       try {
             nameofValues = CBApiClient.GetNameofExchanges();
         }
-        catch (Exception e) {
+       catch (Exception e) {
             e.printStackTrace();
         }
         this.setTitle("Exchange Library");

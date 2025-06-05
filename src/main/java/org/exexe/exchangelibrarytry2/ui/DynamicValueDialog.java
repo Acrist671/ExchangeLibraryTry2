@@ -26,7 +26,7 @@ public class DynamicValueDialog extends JDialog {
         setLayout(new BorderLayout(10, 10));
         this.names = names;
 
-        JPanel inputPanel = new JPanel(new GridLayout(3, 2, 5, 5));  // Изменили на 3 строки
+        JPanel inputPanel = new JPanel(new GridLayout(3, 2, 5, 5));
         inputPanel.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
 
         inputPanel.add(new JLabel("Начальная дата (yyyy-MM-dd):"));

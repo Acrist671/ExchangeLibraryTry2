@@ -25,7 +25,7 @@ public class Exchange {
     public String toString() {
         return String.format(
                 "name ='%s', value = '%s'",
-                 name, Float.parseFloat(value)/nominal
+                 name, Float.parseFloat(value.replace(",", "."))/nominal
         );
     }
 

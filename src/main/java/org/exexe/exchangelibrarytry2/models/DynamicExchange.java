@@ -18,6 +18,6 @@ public class DynamicExchange {
 
     @Override
     public String toString(){
-        return date + " - " + Float.parseFloat(value) / nominal + "\n";
+        return date + " - " + Float.parseFloat(value.replace(",", ".")) / nominal + "\n";
     }
 }
